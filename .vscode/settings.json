@@ -12,14 +12,14 @@
   "workbench.iconTheme": "catppuccin-mocha",
   "workbench.list.smoothScrolling": true,
   "workbench.preferredDarkColorTheme": "Vitesse Dark",
-  "workbench.preferredLightColorTheme": "Vitesse Light",
+  "workbench.preferredLightColorTheme": "Vitesse Dark Soft",
   "workbench.productIconTheme": "icons-carbon",
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.tree.expandMode": "singleClick",
   "workbench.tree.indent": 10,
 
-  // ========== Editor ========== 
+  // ========== Editor ==========
   "debug.onTaskErrors": "debugAnyway",
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
@@ -81,10 +81,10 @@
     "**/LICENSE*": true,
   },
 
-  // ==========  Global Level Config, needs to put in User Settings ========== 
+  // ========== Global (User Settings) ==========
   "window.dialogStyle": "custom",
-  "window.nativeTabs": true, // this is great, macOS only
-  "window.title": "${rootName}", // this make tabs more readable
+  "window.nativeTabs": true, // macOS only
+  "window.title": "${rootName}", // makes tabs more readable
   "window.titleBarStyle": "custom",
   "extensions.autoUpdate": "onlyEnabledExtensions",
 
@@ -196,14 +196,13 @@
   "iconify.inplace": true,
   "svg.preview.mode": "svg",
 
-  // I only use Prettier for manually formatting
+  // Prettier (manual formatting only)
   "prettier.enable": false,
   "prettier.printWidth": 200,
   "prettier.semi": false,
   "prettier.singleQuote": true,
 
   // ========== File Nesting ==========
-  // this might not be up to date with the repo, please check yourself
   // https://github.com/antfu/vscode-file-nesting-config
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.expand": false,
