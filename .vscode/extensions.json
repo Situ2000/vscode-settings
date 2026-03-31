@@ -1,26 +1,26 @@
 {
   "recommendations": [
     // Antfu's extensions
-    "antfu.browse-lite",
     "antfu.iconify",
     "antfu.slidev",
     "antfu.unocss",
     "antfu.vite",
     "antfu.where-am-i",
     "antfu.open-in-github-button",
+    "antfu.file-nesting-config",
     "lokalise.i18n-ally",
 
     // Themes & icons
     "antfu.icons-carbon",
     "antfu.theme-vitesse",
-    "file-icons.file-icons",
-    "sainnhe.gruvbox-material",
+    "jdinhlife.gruvbox",
     "Catppuccin.catppuccin-vsc-icons",
 
     // Essential
     "dbaeumer.vscode-eslint",
     "Vue.volar",
     "GitHub.copilot",
+    "GitHub.copilot-chat",
     "usernamehw.errorlens",
     "streetsidesoftware.code-spell-checker",
 
@@ -29,10 +29,7 @@
     "EditorConfig.EditorConfig",
     "github.vscode-github-actions",
     "GitHub.vscode-pull-request-github",
-    "johnsoncodehk.vscode-tsconfig-helper",
     "mpontus.tab-cycle",
-    "naumovs.color-highlight",
-    "WakaTime.vscode-wakatime",
-    "znck.grammarly"
+    "naumovs.color-highlight"
   ]
 }
